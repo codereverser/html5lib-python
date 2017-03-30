@@ -161,7 +161,7 @@ class HTMLUnicodeInputStream(object):
 
     _defaultChunkSize = 10240
 
-    def __init__(self, source):
+    def __init__(self, source, **kwargs):
         """Initialises the HTMLInputStream.
 
         HTMLInputStream(source, [encoding]) -> Normalized stream from source
